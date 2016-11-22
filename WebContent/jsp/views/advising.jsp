@@ -91,7 +91,7 @@
  												start:'<%=appointments.get(i-1).getAdvisingDate()+"T"+appointments.get(i-1).getAdvisingStartTime()%>',
  												end:'<%=appointments.get(i-1).getAdvisingDate()+"T"+appointments.get(i-1).getAdvisingEndTime()%>',
  												id:<%=-i%>,
- 												backgroundColor: 'orange'
+ 												backgroundColor: 'red'
  											}
  											<%if(i != appointments.size()){%>,<%}
  										}

@@ -68,7 +68,7 @@
  												id:<%=-i%>,
  												backgroundColor: 'orange'
  											}
- 											<%if(i != (appointments.size()-1)){%>,<%}
+ 											<%if(i != (appointments.size())){%>,<%}
  										}
 									}%>		 					 
 		 					 			]<%}%>
